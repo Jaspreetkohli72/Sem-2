@@ -17,5 +17,6 @@ public class ArrayPractice {
             System.out.print(a[i] + ",");
         }
         System.out.println("");
+        input.close();
     }
 }

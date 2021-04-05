@@ -18,6 +18,6 @@ public class StringEquality {
         } else {
             System.out.println("Two Strings are different");
         }
-
+        input.close();
     }
 }

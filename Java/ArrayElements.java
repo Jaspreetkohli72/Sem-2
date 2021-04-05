@@ -37,5 +37,6 @@ public class ArrayElements {
             System.out.print(b[i] + ",");
         }
         System.out.println("");
+        input.close();
     }
 }

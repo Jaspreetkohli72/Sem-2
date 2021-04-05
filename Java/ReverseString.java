@@ -9,6 +9,7 @@ public class ReverseString {
 
         System.out.println("Enter te String needed to be reversed");
         inp = input.nextLine();
+        input.close();
         for (i = inp.length() - 1; i >= 0; i--) {
             rev += inp.charAt(i);
         }

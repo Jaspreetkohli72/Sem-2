@@ -23,5 +23,6 @@ public class ArrayMinMax {
         }
         System.out.println("Greatest number = " + a[size - 1]);
         System.out.println("Smallest number = " + a[0]);
+        input.close();
     }
 }

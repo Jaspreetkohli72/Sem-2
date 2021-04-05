@@ -10,5 +10,6 @@ public class Factorial {
             m *= i;
         }
         System.out.println("" + m);
+        input.close();
     }
 }

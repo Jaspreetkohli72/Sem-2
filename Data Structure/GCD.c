@@ -1,5 +1,4 @@
 //greatest common divisor
-//eg gcd of 2,4,6,8 is 2
 
 #include <stdio.h>
 #include <stdlib.h>

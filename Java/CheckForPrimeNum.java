@@ -18,5 +18,6 @@ public class CheckForPrimeNum {
         } else {
             System.out.println("The entered number is non prime");
         }
+        input.close();
     }
 }

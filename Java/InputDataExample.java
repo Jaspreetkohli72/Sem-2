@@ -19,5 +19,6 @@ public class InputDataExample {
         System.out.println("String input = " + str);
         System.out.println("Interger input = " + a);
         System.out.println("Float input = " + b);
+        input.close();
     }
 }

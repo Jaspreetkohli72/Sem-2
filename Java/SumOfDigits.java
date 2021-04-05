@@ -14,5 +14,6 @@ public class SumOfDigits {
             i = i / 10;
         }
         System.out.println("Sum = " + sum);
+        input.close();
     }
 }
