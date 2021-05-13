@@ -7,13 +7,15 @@ int main()
     char aa[100], bb[100];
     char *a = aa;
     char *b = bb;
-    printf("\nEnter the first string: ");
+    int ctr = 1;
+    printf("Enter the first string: \n");
     gets(aa);
-    printf("\nEnter the second string to be concatenated: ");
+    printf("Enter the second string to be concatenated: \n");
     gets(bb);
     while (*a)
     {
         a++;
+        ctr++;
     }
     while (*b)
     {
@@ -22,6 +24,5 @@ int main()
         a++;
     }
     *a = '\0';
-    printf("\n\n\nThe string after concatenation is: %s ", aa);
-    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+    printf("\nThe string after concatenation is: %s and length is %d", aa, ctr);
 }
