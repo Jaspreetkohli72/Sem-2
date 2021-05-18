@@ -15,13 +15,13 @@ int main()
     while (*a)
     {
         a++;
-        ctr++;
     }
     while (*b)
     {
         *a = *b;
         b++;
         a++;
+        ctr++;
     }
     *a = '\0';
     printf("\nThe string after concatenation is: %s and length is %d", aa, ctr);
